@@ -38,8 +38,8 @@ This example uses p5 preload function to create the classifier
        
   }
 function setup() {
-var w = window.innerWidth;
-var h = window.innerHeight;
+var w = 600;
+var h = 700;
 var cnv = createCanvas(w,h);
 var x = (windowWidth - width) / 2;
 var y = (windowHeight - height) / 2;
