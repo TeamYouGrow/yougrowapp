@@ -99,12 +99,12 @@ classifyVideo();
  if(label === "Snake Plant") {
   //window.location.href ="video.html";
        //alert("Hello");
-     modalTitle = "Snake Plant Tips";
+     /*modalTitle = "Snake Plant Tips";
      modalContent = "Click the video above to get tips on how to grow your Snake plant, straight from an expert.";
      videoLink = "https://www.youtube.com/embed/GGX82HDPhNg";
      document.getElementById("modalt").innerHTML = modalTitle;
      document.getElementById("modalc").innerHTML = modalContent;
-     document.getElementById("videoplayer").setAttribute("src", videoLink);
+     document.getElementById("videoplayer").setAttribute("src", videoLink);*/
      instance.open();
  //
 }
