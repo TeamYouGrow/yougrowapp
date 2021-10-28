@@ -105,6 +105,7 @@ classifyVideo();
      document.getElementById("modalt").innerHTML = modalTitle;
      document.getElementById("modalc").innerHTML = modalContent;
      document.getElementById("videoplayer").setAttribute("src", videoLink);*/
+      alert("Snake plant");
      instance.open();
  //
 }
