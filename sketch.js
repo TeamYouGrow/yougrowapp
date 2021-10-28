@@ -15,9 +15,9 @@ This example uses p5 preload function to create the classifier
     elems = document.querySelector('#modal1');
     var instances = M.Modal.init(elems);
     var instance = M.Modal.getInstance(elems);
-          
+    var videoAnchor=document.getElementById("videoAnchor");      
          console.log(elems);
-        
+    //videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)    
    
  //
 // Classifier Variable
