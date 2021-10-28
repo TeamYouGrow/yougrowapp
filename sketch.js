@@ -110,9 +110,9 @@ classifyVideo();
      //here your change everything
      //videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)  
      
-     b="https://www.youtube.com/embed/GGX82HDPhNg"; 
-     c="Snake Plant Tips";
-     d="Snake plant .........."
+     var b="https://www.youtube.com/embed/GGX82HDPhNg"; 
+     var c="Snake Plant Tips";
+     var d="Snake plant .........."
      videoAnchor.href="videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)"; 
  //
 }
