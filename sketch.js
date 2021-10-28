@@ -101,7 +101,7 @@ classifyVideo();
        //alert("Hello");
      modalTitle = "Snake Plant Tips";
      modalContent = "Click the video above to get tips on how to grow your Snake plant, straight from an expert.";
-     videoLink = "https://youtube.com/embed/tzY-rJiMgqQ";
+     videoLink = "https://www.youtube.com/embed/GGX82HDPhNg";
      document.getElementById("modalt").innerHTML = modalTitle;
      document.getElementById("modalc").innerHTML = modalContent;
      document.getElementById("videoplayer").setAttribute("src", videoLink);
@@ -113,7 +113,7 @@ else if(label === "Basil") {
   water = "789ml";
   modalTitle = "Basil Tips";
   modalContent = "Click the video above to get tips on how to grow your Basil/Tulsi plant, straight from an expert.";
-  videoLink = "";
+  videoLink = "https://www.youtube.com/embed/Y5pbobOoaMQ";
   document.getElementById("modalt").innerHTML = modalTitle;
   document.getElementById("modalc").innerHTML = modalContent;
   document.getElementById("videoplayer").setAttribute("src", videoLink);
