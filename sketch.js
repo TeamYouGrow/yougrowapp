@@ -17,7 +17,7 @@ This example uses p5 preload function to create the classifier
     var instance = M.Modal.getInstance(elems);
     var videoAnchor=document.getElementById("videoAnchor");      
          console.log(elems);
-    //videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)    
+    //videoDesign.html?video=' + b+'&heading='+c+'&title='+d    
    
  //
 // Classifier Variable
@@ -108,7 +108,7 @@ classifyVideo();
       
      instance.open();
      //here your change everything
-     //videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)  
+     //videoDesign.html?video=' + b+'&heading='+c+'&title='+d  
      
      var b="https://www.youtube.com/embed/GGX82HDPhNg"; 
      var c="Snake Plant Tips";
