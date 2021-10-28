@@ -107,6 +107,13 @@ classifyVideo();
      document.getElementById("videoplayer").setAttribute("src", videoLink);*/
       
      instance.open();
+     //here your change everything
+     //videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)  
+     
+     b="https://www.youtube.com/embed/GGX82HDPhNg"; 
+     c="Snake Plant Tips";
+     d="Snake plant .........."
+     videoAnchor.href="videoDesign.html?video=' + encodeURIComponent(b)+'&heading='+encodeURIComponent(c)+'&title='+encodeURIComponent(d)"; 
  //
 }
        
