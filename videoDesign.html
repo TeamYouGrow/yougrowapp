@@ -72,7 +72,7 @@
         </section>
         <iframe width="95%" height="500" id="videoFrame"  src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4 id="heading_video">Video</h4>
-        <p id="heading_video">Title</p>
+        <p id="title_video">Title</p>
       </div>  
 
       <script>
@@ -91,7 +91,7 @@
         alert(data.video);
         videoFrame.src=data.video;
         heading.innerHTML=decodeURIComponent(data.heading);
-        title.innerHTML=data.title;
+        title.innerHTML=decodeURIComponent(data.title);
 
 </script>
   
