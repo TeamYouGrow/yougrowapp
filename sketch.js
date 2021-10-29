@@ -105,7 +105,8 @@ classifyVideo();
      document.getElementById("modalt").innerHTML = modalTitle;
      document.getElementById("modalc").innerHTML = modalContent;
      document.getElementById("videoplayer").setAttribute("src", videoLink);*/
-      
+     modal_title.innerHTML="Snake Plant";
+     modal_line.innerHTML="Click here to watch a video on plant's care";
      instance.open();
      //here your change everything
      //videoDesign.html?video=' + b+'&heading='+c+'&title='+d  
