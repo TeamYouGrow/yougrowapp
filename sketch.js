@@ -40,7 +40,7 @@ This example uses p5 preload function to create the classifier
   }
 function setup() {
 var w = window.innerWidth;
-var h = window.innerWidth;
+var h = window.innerHeight;
 var cnv = createCanvas(w,h);
 var x = (windowWidth - width) / 2;
 var y = (windowHeight - height) / 2;
@@ -56,7 +56,7 @@ exact: "environment"
 //But hide the live video to the user
 video.hide();
 //Set the size of the video (and image)
-video.size(h, w);
+video.size(w, h);
 flippedVideo = ml5.flipImage(video);
 // Start classifying
 classifyVideo();
