@@ -73,12 +73,16 @@
         <iframe width="95%" height="500" id="videoFrame"  src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4 id="heading_video">Video</h4>
         <p id="title_video">Title</p>
+      
+        <img src="" id="infographics_image"/>
       </div>  
 
       <script>
         var videoFrame= document.getElementById("videoFrame");
         var heading=document.getElementById("heading_video");
         var title=document.getElementById("title_video");
+        var image=document.getElementById("infographics_image");
+        
         var url = document.location.href,
             params = url.split('?')[1].split('&'),
             data = {}, tmp;
@@ -92,6 +96,7 @@
         videoFrame.src=data.video;
         heading.innerHTML=decodeURIComponent(data.heading);
         title.innerHTML=decodeURIComponent(data.title);
+        image.src=decodeURIComponent(data.image);
 
 </script>
   
