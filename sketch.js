@@ -18,7 +18,7 @@ This example uses p5 preload function to create the classifier
     var videoAnchor=document.getElementById("videoAnchor");      
          console.log(elems);
      var modal_title=document.getElementById("modal_title");
-     var modal_line=docuemnt.getElementById("modal_line");
+     var modal_line=document.getElementById("modal_line");
     //videoDesign.html?video=' + b+'&heading='+c+'&title='+d    
    
  //
