@@ -114,6 +114,7 @@ classifyVideo();
      var b="https://www.youtube.com/embed/GGX82HDPhNg"; 
      var c="Snake Plant Tips";
      var d="Snake plant .........."
+     
      videoAnchor.href='videoDesign.html?video=' + b+'&heading='+c+'&title='+d; 
  //
 }
