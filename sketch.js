@@ -17,6 +17,8 @@ This example uses p5 preload function to create the classifier
     var instance = M.Modal.getInstance(elems);
     var videoAnchor=document.getElementById("videoAnchor");      
          console.log(elems);
+     var modal_title=document.getElementById("");
+     var modal_line=docuemnt.getElementById("");
     //videoDesign.html?video=' + b+'&heading='+c+'&title='+d    
    
  //
@@ -34,8 +36,7 @@ This example uses p5 preload function to create the classifier
 
   // Load the model first
   function preload() {
-    classifier = ml5.imageClassifier(imageModelURL + 'model.json');
-       
+    classifier = ml5.imageClassifier(imageModelURL + 'model.json');   
   }
 function setup() {
 var w = window.innerWidth;
@@ -80,7 +81,6 @@ classifyVideo();
     flippedVideo = ml5.flipImage(video)
     classifier.classify(flippedVideo, gotResult);
     flippedVideo.remove();
-
   }
 
   // When we get a result
