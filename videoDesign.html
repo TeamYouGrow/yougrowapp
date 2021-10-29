@@ -90,7 +90,7 @@
         }
         alert(data.video);
         videoFrame.src=data.video;
-        heading.innerHTML=data.heading;
+        heading.innerHTML=decodeURIComponent(data.heading);
         title.innerHTML=data.title;
 
 </script>
